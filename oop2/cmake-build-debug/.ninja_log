@@ -1,0 +1,16 @@
+# ninja log v6
+5	544	7569170542384975	CMakeFiles/oop_prog.dir/ship.cpp.obj	e25cc1eb224f2ef9
+46	1652	7569220846566010	CMakeFiles/oop_prog.dir/abilities/Double_damage.cpp.obj	40c41fdf305bb322
+40	826	7569169238836535	CMakeFiles/oop_prog.dir/manager.cpp.obj	deaa2577d84bc29b
+41	1776	7569220846526020	CMakeFiles/oop_prog.dir/main.cpp.obj	a4f7cb2da358b2f2
+167	714	7569055563488064	CMakeFiles/oop_prog.dir/abilities/exception.cpp.obj	a9c34985f7e8e2fc
+43	978	7569221430881087	CMakeFiles/oop_prog.dir/field.cpp.obj	c32bf8755b0bd78
+979	1241	7569221440244175	oop_prog.exe	eec10e332a924afb
+52	1652	7569220846625996	CMakeFiles/oop_prog.dir/abilities/scanner.cpp.obj	897f256e5d1f283c
+12	1027	7569145482341403	CMakeFiles/oop_prog.dir/abilities/ability_manager.cpp.obj	40e7adcfab32ca6
+94	1381	7569055562757880	CMakeFiles/oop_prog.dir/abilities/abilities.cpp.obj	fb99b66c916ca5f
+28	709	7569171537680261	CMakeFiles/oop_prog.dir/player.cpp.obj	ad335d205ff6df1
+57	1671	7569220846676018	CMakeFiles/oop_prog.dir/abilities/rocket.cpp.obj	cc99398f38a19abb
+37	878	7569238389440138	build.ninja	4749915b62be5810
+29	966	7569145482505573	CMakeFiles/oop_prog.dir/abilities/ability_registry.cpp.obj	ea2394b43ab34112
+62	1636	7569220846736099	CMakeFiles/oop_prog.dir/abilities/player.cpp.obj	cf88159ea79ee25d
