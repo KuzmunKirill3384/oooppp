@@ -1,0 +1,6 @@
+n
+6 6
+1 1 0 0
+attack
+save
+quit
