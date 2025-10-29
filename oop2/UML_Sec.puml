@@ -1,0 +1,69 @@
+@startuml
+
+' Определение структур и классов
+
+' Класс Rocket, наследуется от Ability
+class Rocket {
+    + std::string use() const
+}
+Rocket -|> Ability
+
+class DoubleDamage{
+    +std::string use() const;
+}
+
+class Scanner{
+    +std::string use() const
+}
+
+DoubleDamage -|> Ability
+' Класс исключения AbilityFailureException, наследуется от GameException
+class GameException {
+    + virtual const char* what()
+}
+
+class AbilityFailureException {
+    + const char* what()
+}
+AbilityFailureException -|> GameException
+
+' Класс AbilityManager
+class AbilityManager {
+    - std::deque<AbilityCreator> abilities
+    + AbilityManager()
+    + std::string useAbility(Player &user, Player &target)
+    + void giveNewAbility()
+}
+
+' Класс AbilityCreator (предположительно)
+class AbilityCreator {
+    // Определения не предоставлены
+}
+
+
+' Класс AbilityRegistry (синглтон)
+class AbilityRegistry {
+    + static AbilityRegistry instance()
+    + bool registerAbility(AbilityCreator creator)
+}
+
+' Класс Ability (предположительно)
+class Ability {
+    + virtual std::string use() const
+}
+
+
+
+
+
+
+
+' Связи между классами
+AbilityManager --> AbilityCreator
+AbilityManager --> Player
+AbilityRegistry --> AbilityCreator
+Rocket --> AbilityRegistry
+
+
+
+@enduml
